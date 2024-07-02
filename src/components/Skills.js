@@ -24,12 +24,45 @@ const Skills = () => {
         transition={{ duration: 0.5 }}
       >
         <h2>Skills</h2>
-        <ul>
-          <li>Python</li>
-          <li>JavaScript</li>
-          <li>Machine Learning</li>
-          <li>Data Science</li>
-        </ul>
+        <div className="skills-container">
+          <div className="skill-category">
+            <h3>Languages</h3>
+            <ul>
+              <li>C</li>
+              <li>C++</li>
+              <li>C#</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Java</li>
+              <li>MATLAB</li>
+              <li>MySQL</li>
+              <li>PySpark</li>
+              <li>Python</li>
+              <li>R</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h3>Libraries and Tools</h3>
+            <ul>
+              <li>BeautifulSoup</li>
+              <li>Django</li>
+              <li>Docker</li>
+              <li>Git</li>
+              <li>Numpy</li>
+              <li>Node</li>
+              <li>Pandas</li>
+              <li>React</li>
+              <li>TensorFlow</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h3>Cloud Technologies</h3>
+            <ul>
+              <li>AWS (Aurora, DynamoDB, EC2, Elasticache, Glue, Lambda)</li>
+              <li>GCP (MySQL)</li>
+            </ul>
+          </div>
+        </div>
       </motion.div>
     </section>
   );

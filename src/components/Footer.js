@@ -23,7 +23,7 @@ const Footer = () => {
         animate={animate ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 0.5 }}
       >
-        <p>© 2024 Your Name. All rights reserved.</p>
+        <p>© 2024 Sreedhar Ramesh. All rights reserved.</p>
       </motion.div>
     </footer>
   );

@@ -16,7 +16,7 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 1em 0;
   text-align: center;
   position: fixed;
@@ -43,7 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bold;
 }

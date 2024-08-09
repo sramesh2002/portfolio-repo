@@ -34,6 +34,7 @@ const Skills = () => {
               <li>CSS</li>
               <li>HTML</li>
               <li>Java</li>
+              <li>JavaScript</li>
               <li>MATLAB</li>
               <li>MySQL</li>
               <li>PySpark</li>
